@@ -1,5 +1,5 @@
 # virtualboxweb
-Instalação Altomatica PhpVirtualBox Ubuntu 14.04 Lts
+Instalação Automatica PhpVirtualBox no ubuntu 14.04 Lts
 
 O Arquivo deve ser Executado como 'root'
 
