@@ -74,6 +74,7 @@ sleep 5s
 	cd /var/www/html/
 	cp /var/www/html/config.php-example /var/www/html/config.php
 	echo VBOXWEB_USER=vbox >> "/etc/default/virtualbox"
+	echo su -c "VBoxManage startvm Nome_Maquina_Virtual --type headless" -s /bin/sh vbox >> /etc/rc.local
 	
 	
 			#Configuraçoes manuais...
